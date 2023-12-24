@@ -12,6 +12,7 @@ function App() {
   );
 }
 
+<<<<<<< HEAD
 // function PlayingWithProps(properties) {
 //   console.log(properties)
 //   console.log(properties.property1)
@@ -33,4 +34,6 @@ function App() {
 
 
 
+=======
+>>>>>>> 627a8f6293f08acc483446439d7bf37f86888c49
 export default App;
