@@ -1,39 +1,17 @@
 
 import './App.css';
-import Counter from './components/counter/Counter';
+import TodoApp from './components/todo/TodoApp';
 //import LearningComponent from './components/learning-examples/LearningComponent';
 
 
 function App() {
   return (
     <div className="App">
-       <Counter/>    
+       <TodoApp/>
+
     </div>
   );
 }
 
-<<<<<<< HEAD
-// function PlayingWithProps(properties) {
-//   console.log(properties)
-//   console.log(properties.property1)
-//   console.log(properties.property2)
-//   return (
-//     <div>Props</div>
-//   )
-// }
 
-// function PlayingWithProps({property1,property2}) {
-//   console.log(property1)
-//   console.log(property2)
-
-//   return (
-//     <div>Props</div>
-//   )
-// }
-
-
-
-
-=======
->>>>>>> 627a8f6293f08acc483446439d7bf37f86888c49
 export default App;
