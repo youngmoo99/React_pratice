@@ -35,61 +35,13 @@ export default function TodoApp() {
                 </Routes>
               
             </BrowserRouter>
-<<<<<<< HEAD
+
          
         </AuthProvider>
-=======
-          
-        </div>
-    )
-}
-
-function LoginComponent() {
-const [username,setUsername] = useState('in28minutes')
-const [password,setPassword] = useState('')
-const [showSuccessMessage,setShowSuccessMessage] = useState(false)
-const [showErrorMessage,setShowErrorMessage] = useState(false)
-
-const navigate = useNavigate();
-
-function handleUsernameChange(event) {
-    setUsername(event.target.value)
-}
-function handlePasswordChange(event) {
-    console.log(event.target.value)
-    setPassword(event.target.value)
-}
-    function handleSubmit() {
-        if(username === 'in28minutes' && password === 'dummy') {
-            console.log('Success')
-            setShowSuccessMessage(true)
-            setShowErrorMessage(false)
-            navigate(`/welcome/${username}`)
-        } else {
-            console.log('Failed')
-            setShowErrorMessage(true)
-            setShowSuccessMessage(false)
-        }
->>>>>>> 20c879a69d80d0f177be9e2145cfa4041e02e088
-        
+      
         </div>
     )
 }
 
 
 
-
-
-
-
-
-<<<<<<< HEAD
-
-
-=======
-                </table>
-           </div>
-        </div>
-    )
-}
->>>>>>> 20c879a69d80d0f177be9e2145cfa4041e02e088
